@@ -1,10 +1,7 @@
 
 let colors = []
 
-// Add three colors using push()
-colors.push("Pink")
-colors.push("Purple")
-colors.push("Blue")
+colors.push("pink", "purple", "blue")
 
 let numbers = [5, 10, 15, 20, 25]
 
@@ -12,7 +9,6 @@ colors.pop();
 
 colors.unshift("Yellow")
 
-// Print the arrays
 console.log("Colors:", colors)
 console.log("Numbers:", numbers)
 
